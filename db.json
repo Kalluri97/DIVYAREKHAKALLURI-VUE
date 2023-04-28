@@ -1,0 +1,95 @@
+{"books":
+ [{
+    "Rank": 1,
+    "Name": "Chipotle",
+    "Year": 1993,
+    "Revenue": "9.32million",
+    "Famous_dish": "RiceBowl",
+    "Customers_served":400,
+    "Ratings":5
+  },
+   
+{
+     "Rank": 2,
+    "Name": "chick-fill-a",
+    "Year": 1995,
+    "Revenue": "8.12million",
+    "Famous_dish": "Sandwitch",
+    "Customers_served": 350,
+    "Ratings":5
+},
+{
+    "Rank": 3,
+    "Name": "Mcdonald's",
+    "Year": 1994,
+    "Revenue": "7.89million",
+    "Famous_dish": "FrenchFries",
+    "Customers_served":270 ,
+    "Ratings":4 
+},
+{
+    "Rank": 4,
+    "Name": "StarofIndia",
+    "Year": 1983,
+    "Revenue": "6.65million",
+    "Famous_dish": "Pavbaji",
+    "Customers_served":260 ,
+    "Ratings":5 
+},
+{
+    "Rank": 5,
+    "Name": "opitaziki",
+    "Year": 1995,
+    "Revenue": "5.91million",
+    "Famous_dish": "wrap",
+    "Customers served":340 ,
+    "Ratings":3 
+},
+
+{  "Rank": 6,
+    "Name": "Crowsfoods",
+    "Year": 1993,
+    "Revenue": "4.31million",
+    "Famous_dish": "Chickenwings",
+    "Customers_served":267 ,
+    "Ratings":4 
+},
+
+{
+    "Rank": 7,
+    "Name": "TacoBell",
+    "Year": 1992,
+    "Revenue": "3.21million",
+    "Famous_dish": "ChickenWrap",
+    "Customers_served":150 ,
+    "Ratings":4 
+},
+{
+    "Rank": 8,
+    "Name": "Houseofnan",
+    "Year": 1991,
+    "Revenue": "3.4million",
+    "Famous_dish": "Butternan",
+    "Customers_served":190 ,
+    "Ratings":4 
+},
+{
+    "Rank": 9,
+    "Name": "SpiceofIndia",
+    "Year": 1992,
+    "Revenue": "6.27million",
+    "Famous_dish": "Biriyani",
+    "Customers_served":130 ,
+    "Ratings":4 
+},
+{
+    "Rank": 10,
+    "Name": "Paradise",
+    "Year": 1993,
+    "Revenue": "6.32million",
+    "Famous_dish": "Mutton",
+    "Customers_served":110 ,
+    "Ratings":5
+}
+
+ ]}
