@@ -1,7 +1,7 @@
 <template>
   <MyHeader bookName="TOP 10 RESTURENTS IN US AND THEIR STATICTICS"  yourname="Divya Rekha Kalluri"/>
   
-    <BookBox :books=books  />
+    <BookBox :books="books"  />
   </template>
   
   <script>
@@ -25,7 +25,7 @@
       // promises
   
         async fetchBooks(){
-           const res= await fetch('http://localhost:5555/books')
+           const res= await fetch('https://divya-rekha-node.herokuapp.com/api')
            const data= await res.json()
             //console.log(data)
            return data
@@ -34,14 +34,6 @@
     },
   
     async created(){
-      /*
-      In Vue.js, the created() lifecycle hook is a method 
-      that gets called immediately after a component is created 
-      and its data and methods have been initialized, 
-      but before the component is mounted to the DOM.
-  
-      By doing this in the created() hook, the component will have the data it needs as soon as it's mounted to the DOM, ensuring a smooth user experience.
-      */
       this.books = await this.fetchBooks()
     }
   }
